@@ -76,6 +76,17 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
     - **Description:** Concurrent doubly linked list allows multiple users to modify the data structure. Pub/sub model allows real time data synchronization.
     - Find the sample code [here]()
 
+## Efficiency analysis
+
+|---------------------------------------|------------------------------------------------|-----------------------------------------------|
+| **Algorithm**                         | **Time Complexity**                            | **Space Complexity**                          |
+|---------------------------------------|------------------------------------------------|-----------------------------------------------|
+| **Trie Data Structure**               | Insert/Search: O(n)                            | O(n) each node                                |
+| **BFS and DFS**                       | O(V + E)                                       | O(V)                                          |
+| **Dijkstra's Algorithm**              | O((V + E) log V)                               | O(V^2)                                        |
+| **Heap Data Structure**               | Insert/Delete/Extract: O(log n)                | O(n)                                          |
+|---------------------------------------|------------------------------------------------|-----------------------------------------------|
+
 ## References
 1.  [The Soundex Indexing System"](https://www.archives.gov/research/census/soundex.html). National Archives. 
 2. [What is spotify](https://support.spotify.com/in-en/article/what-is-spotify/)
