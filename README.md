@@ -75,9 +75,9 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
     - **Description:** Concurrent doubly linked list allows multiple users to modify the data structure. Pub/sub model allows real time data synchronization.
     - Find the sample code [here]()
 ## References
-1. [What is spotify](https://support.spotify.com/in-en/article/what-is-spotify/)
-2. [Spotify Wikipedia](https://en.wikipedia.org/wiki/Spotify)
-3. 
+   1. [What is spotify](https://support.spotify.com/in-en/article/what-is-spotify/)
+   2. [Spotify Wikipedia](https://en.wikipedia.org/wiki/Spotify)
+   3. 
 
 
 
