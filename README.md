@@ -1,10 +1,8 @@
-# Portfolio
-### Course
-Algorithmic Problem Solving 
-### Name
-Kushalgouda Patil  
-KLE Technological University
-### Domain
-Spotify
+## Course Information
+
+- **Course Name:** Algorithmic Problem Solving
+- **Course Code:** 23ECSE309
+- **Name:** Kushalgouda Shivanagouda Patil
+- **University:** KLE Technological University, Hubballi-31
 
 
