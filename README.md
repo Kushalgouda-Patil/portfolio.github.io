@@ -19,9 +19,10 @@ Spotify is a digital music, podcast, and video service that gives access to mill
 
 ## Market Analysis
 Spotify operates on a freemium business model, offering both a free ad-supported tier and a paid subscription without ads. This model has fueled rapid user growth — Spotify has added over 400 million users in just the last 5 years. However, converting those users to paying subscribers has been a greater challenge.
-Over the past year, Spotify has focused heavily on improving profitability. In addition to subscription price hikes rolled out globally, Spotify has laid off 6% of its workforce and scaled back spending on podcast content and marketing. These actions led adjusted operating income to reach €32 million in Q3, a remarkable turnaround from the €228 million loss in the year-ago quarter.
 
-Improving profitability is crucial for Spotify to reassure investors. Since going public in 2018 at a $30 billion valuation, Spotify has yet to deliver consistent profits, leading its stock price to underperform the broader market. With slowing revenue growth and thin margins, Spotify remains in a precarious financial position unless it can sustain the cost-cutting measures that fueled its recent profitability.
+Over the past year, Spotify has focused heavily on improving profitability. In addition to subscription price hikes rolled out globally, Spotify has laid off 6% of its workforce and scaled back spending on podcast content and marketing.
+
+Improving profitability is crucial for Spotify to reassure investors. Since going public in 2018 at a $30 billion valuation, Spotify has yet to deliver consistent profits, leading its stock price to underperform the broader market.
 
 ## Business Use Cases
 1. **Playlist Management**
@@ -33,7 +34,7 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
    - **Challenge:** Quickly sort the songs based on applied filters
    - **Data structure and Algorithm:** Merge sort
    - **Description:** A divide-and-conquer, stable sorting algorithm that works by recursively creating sub-lists for every element in the list. It can be implemented with constant auxillary space. Due to the nature of the algorithm requiring less random access of it is best suited for linked lists
-   - Find the sample code [here]()
+   - Find the sample code [here](https://github.com/Kushalgouda-Patil/DSA/blob/main/sorting_techniques/merge_sort.c)
 3. **Shuffle songs**
    - **Challenge:** Shuffle songs randomly in playlist
    - **Data structure and Algorithm:** Fisher–Yates shuffle
@@ -76,12 +77,13 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
     - Find the sample code [here]()
 
 ## References
-1. [What is spotify](https://support.spotify.com/in-en/article/what-is-spotify/)
-2. [Spotify Wikipedia](https://en.wikipedia.org/wiki/Spotify)
-3. [Code Mentor](https://www.codementor.io/@mattgoldspink/computer-algorithms-explained-learning-through-spotify-du10866vw)
-4. https://engineering.atspotify.com/2014/02/how-to-shuffle-songs/
-5. https://www.baeldung.com/cs/efficiently-sorting-linked-lists
-6. https://developers.google.com/machine-learning/recommendation/content-based/basics
+1.  [The Soundex Indexing System"](https://www.archives.gov/research/census/soundex.html). National Archives. 
+2. [What is spotify](https://support.spotify.com/in-en/article/what-is-spotify/)
+3. [Spotify Wikipedia](https://en.wikipedia.org/wiki/Spotify)
+4. [Code Mentor](https://www.codementor.io/@mattgoldspink/computer-algorithms-explained-learning-through-spotify-du10866vw)
+5. https://engineering.atspotify.com/2014/02/how-to-shuffle-songs/
+6. https://www.baeldung.com/cs/efficiently-sorting-linked-lists
+7. https://developers.google.com/machine-learning/recommendation/content-based/basics
 
 
 
