@@ -59,7 +59,7 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
    - **Challenge:** To cache the content for faster access
    - **Data structure and Algorithm:** LRU Cache eviction policy
    - **Description:** Stores frequently accessed content closer to users for faster retrieval and reduced server load.
-   - Find the sample code [here]()
+   - Find the sample code [here](https://github.com/SUMUKHA-PK/LRU-Cache/blob/master/C/lru.c)
 8. **Ad selection and insertion**
    - **Challenge:** To show relevent advertisements in between songs to generate profit.
    - **Data structure and Algorithm:** Content-Based Filtering
