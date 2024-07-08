@@ -44,7 +44,7 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
    - **Description:** The names of song may have different language origins and user shall not search the exact string. Soundex algorithm considers phonetics of a string to search similar phonetic string which is very useful to search required song.
    - Find the sample code [here]()
 5. **User Segmentation**
-   - **Data Structure:** Clustering (like K-means)
+   - **Challenge:** To group users into clusters for targeted advertising and recommendations
    - **Data structure and Algorithm:** K-means clustering algorithm
    - **Description:** Groups users into segments based on behavior and preferences for targeted marketing and content recommendations.
    - Find the sample code [here]()
@@ -54,7 +54,7 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
    - **Description:** Optimized for storing large datasets of strings with shared prefixes. Search time is (n), where n is the length of the prefix, making them very efficient for autocomplete.
    - Find the sample code [here]()
 7. **Content Caching**
-   - **Data Structure:** LRU Cache (Least Recently Used)
+   - **Challenge:** To cache the content for faster access
    - **Data structure and Algorithm:** LRU Cache eviction policy
    - **Description:** Stores frequently accessed content closer to users for faster retrieval and reduced server load.
    - Find the sample code [here]()
