@@ -85,8 +85,7 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
 | **BFS and DFS**                       | O(V + E)                                       | O(V)                                          |
 | **Merge Sort**                        | Worst/Avg: O(nlog n)                           | O(n)                                          |
 | **Least Recently Used (LRU) Cache**   | O(1) for both get and put operations           | O(capacity)                                   |
-| **K-means Clustering**                      | O(n * k * I * d)<br>where:<br>n = number of data points<br>k = number of clusters<br>I = number of iterations<br>d = dimensionality of data | O(n * k)                         |
-
+| **K-means Clustering**                | O(n * k * I * d)<br>where:<br>n = number of data points<br>k = number of clusters<br>I = number of iterations<br>d = dimensionality of data                                                 | O(n * k)                                      |
 | **Heap Data Structure**               | Insert/Delete/Extract: O(log n)                | O(n)                                          |
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
 
