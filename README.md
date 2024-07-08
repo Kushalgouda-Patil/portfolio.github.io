@@ -43,10 +43,10 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
    - **Data structure and Algorithm::** Soundex algorithm
    - **Description:** The names of song may have different language origins and user shall not search the exact string. Soundex algorithm considers phonetics of a string to search similar phonetic string which is very useful to search required song.
    - Find the sample code [here]()
-5. **Shuffle songs**
-   - **Challenge:** Shuffle songs randomly in playlist
-   - **Data structure and Algorithm::** Fisher–Yates shuffle
-   - **Description:** The Fisher–Yates shuffle is an algorithm for shuffling a finite sequence. The algorithm takes a list of all the elements of the sequence, and continually determines the next element in the shuffled sequence by randomly drawing an element from the list until no elements remain.[1] The algorithm produces an unbiased permutation: every permutation is equally likely.
+5. **User Segmentation**
+   - **Data Structure:** Clustering (like K-means)
+   - **Algorithm:** K-means clustering algorithm
+   - **Description:** Groups users into segments based on behavior and preferences for targeted marketing and content recommendations.
    - Find the sample code [here]()
 6. **Search Autocomplete**
    - **Challenge:** To give right suggestions to autocomplete
