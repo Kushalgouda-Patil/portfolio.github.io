@@ -37,7 +37,7 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
    - **Challenge:** Shuffle songs randomly in playlist
    - **Data structure and Algorithm::** Fisher–Yates shuffle
    - **Description:** The Fisher–Yates shuffle is an algorithm for shuffling a finite sequence. The algorithm takes a list of all the elements of the sequence, and continually determines the next element in the shuffled sequence by randomly drawing an element from the list until no elements remain. The algorithm produces an unbiased permutation: every permutation is equally likely.
-   - Find the sample code [here]()
+   - Find the sample code [here](https://github.com/JDSherbert/Fisher-Yates-Shuffle/blob/main/C/Shuffle.c)
 4. **Search songs**
    - **Challenge:** Quickly search song 
    - **Data structure and Algorithm::** Soundex algorithm
