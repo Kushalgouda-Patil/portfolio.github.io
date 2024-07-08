@@ -67,7 +67,7 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
    - **Challenge:** To connect with friends and share the songs and playlists
    - **Data structure and Algorithm:** Breadth First search with graphs.
    - **Description:** Graph is used to represent the connection between users. BFS is used to recommend similar songs.
-   - Find the sample code [here]()
+   - Find the sample code [here](https://github.com/Kushalgouda-Patil/DSA/blob/main/graphs/bfsndfs.c)
 10. **Collaborative playlist**
     - **Challenge:** Users can have shared playlist with permissions to modify.
     - **Data structure and Algorithm:** Concurrent doubly linked list with publish/subscribe model 
