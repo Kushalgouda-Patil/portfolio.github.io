@@ -78,7 +78,13 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
 ## References
 1. [What is spotify](https://support.spotify.com/in-en/article/what-is-spotify/)
 2. [Spotify Wikipedia](https://en.wikipedia.org/wiki/Spotify)
-3. 
+3. [Code Mentor](https://www.codementor.io/@mattgoldspink/computer-algorithms-explained-learning-through-spotify-du10866vw)
+4. https://engineering.atspotify.com/2014/02/how-to-shuffle-songs/
+5. https://www.baeldung.com/cs/efficiently-sorting-linked-lists
+6. https://developers.google.com/machine-learning/recommendation/content-based/basics
+
+
+
 
 
 
