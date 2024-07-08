@@ -44,12 +44,12 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
    - **Challenge:** Quickly search song 
    - **Data structure and Algorithm:** Soundex algorithm
    - **Description:** The names of song may have different language origins and user shall not search the exact string. Soundex algorithm considers phonetics of a string to search similar phonetic string which is very useful to search required song.
-   - Find the sample code [here]()
+   - Find the sample code [here](https://github.com/Gregory-crypto/solid-pluses/blob/main/soundex.cpp)
 5. **User Segmentation**
    - **Challenge:** To group users into clusters for targeted advertising and recommendations
    - **Data structure and Algorithm:** K-means clustering algorithm
    - **Description:** Groups users into segments based on behavior and preferences for targeted marketing and content recommendations.
-   - Find the sample code [here]()
+   - Find the sample code [here](https://github.com/srafay/Machine_Learning_A-Z/blob/master/Part%204%20-%20Clustering/Section%2024%20-%20K-Means%20Clustering/kmeans.py)
 6. **Search Autocomplete**
    - **Challenge:** To give right suggestions to autocomplete
    - **Data structure and Algorithm:** Trie data structure
