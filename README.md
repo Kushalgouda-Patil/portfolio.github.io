@@ -110,7 +110,7 @@ This implies that there is a storage requirement of 500 TB to store the song dat
    - **Challenge:** To show relevent advertisements in between songs to generate profit.
    - **Data structure and Algorithm:** Content-Based Filtering
    - **Description:** Content based filtering uses dot product to suggest relevent ads. This algorithm may not work if user has less interests and may stuck in a loop.
-   - Find the sample code [here]()
+   - Find the sample code [here](https://github.com/ugis22/music_recommender/tree/master/content%20based%20recommedation%20system)
 9. **Social features**
    - **Challenge:** To connect with friends and share the songs and playlists
    - **Data structure and Algorithm:** Breadth First search with graphs.
@@ -120,7 +120,7 @@ This implies that there is a storage requirement of 500 TB to store the song dat
     - **Challenge:** Users can have shared playlist with permissions to modify.
     - **Data structure and Algorithm:** Concurrent doubly linked list with publish/subscribe model 
     - **Description:** Concurrent doubly linked list allows multiple users to modify the data structure. Pub/sub model allows real time data synchronization.
-    - Find the sample code [here]()
+    - Find the sample code [here](https://github.com/gavra0/ConcLinkedList)
 11. **Music Recommendation**
    ![illustration](https://www.haulio.io/wp-content/uploads/2020/06/Collaborative-vs-Content-based-filtering.jpg)
    - **Challenge:** Application should recommend songs that users love
