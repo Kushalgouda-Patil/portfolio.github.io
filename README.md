@@ -1,4 +1,4 @@
-# Algorithmic Problem Solving Portfolio
+<!-- # Algorithmic Problem Solving Portfolio -->
 ## 📘 Course Information
 
 - **Course Name:** Algorithmic Problem Solving
