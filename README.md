@@ -100,6 +100,8 @@ This implies that there is a storage requirement of 500 TB to store the song dat
    - **Description:** Groups users into segments based on behavior and preferences for targeted marketing and content recommendations.
    - Find the sample code [here](https://github.com/srafay/Machine_Learning_A-Z/blob/master/Part%204%20-%20Clustering/Section%2024%20-%20K-Means%20Clustering/kmeans.py)
 6. **Search Autocomplete**
+
+   ![illustration](https://i.redd.it/ee5w4bhh6d1b1.jpg)
    - **Challenge:** To give right suggestions to autocomplete
    - **Data structure and Algorithm:** Trie data structure
    - **Description:** Optimized for storing large datasets of strings with shared prefixes. Search time is (n), where n is the length of the prefix, making them very efficient for autocomplete.
