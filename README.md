@@ -10,6 +10,8 @@
 
 1. [Introduction](#introduction)
 2. [Market Analysis](#market-analysis)
+2. [Objectives](#objectives)
+2. [System Design](#system-design)
 3. [Business Use Cases](#Business-Use-Cases)
 4. [References](#References)
 
@@ -24,25 +26,29 @@ Spotify operates on a freemium business model, offering both a free ad-supported
 Over the past year, Spotify has focused heavily on improving profitability. In addition to subscription price hikes rolled out globally, Spotify has laid off 6% of its workforce and scaled back spending on podcast content and marketing.
 
 Improving profitability is crucial for Spotify to reassure investors. Since going public in 2018 at a $30 billion valuation, Spotify has yet to deliver consistent profits, leading its stock price to underperform the broader market.
+
 ## Objectives
+ - Analyse the architecture through system design
+ - Identify existing and new business use cases.
+ - Propose algorithm and analyse with time and space complexities for use cases
 
 ## System Design
 ### Functional Requirements
-   - As a user, I should be able to search for songs based on the song name/artist name etc.
-   - As a user, I should be able to play the selected song.
+   1. As a user, I should be able to search for songs based on the song name/artist name etc.
+   1. As a user, I should be able to play the selected song.
 
 ### Non-Functional Requirements
 
-   - Latency: Low latency is vital for immediate music playback after a user's selection, quick search results, and responsive user interface interactions.
-   - Scalability: Scalability ensures that as the number of users increases, the system can handle the additional load without performance degradation
-   - Availability: The users should be able to access music streaming, search functions, and other features without interruptions
-   - Robustness: Robustness includes the ability to deal with invalid user input, network issues, server failures, and unexpected behavior from client applications.
+   1. Latency: Low latency is vital for immediate music playback after a user's selection, quick search results, and responsive user interface interactions.
+   1. Scalability: Scalability ensures that as the number of users increases, the system can handle the additional load without performance degradation
+   1. Availability: The users should be able to access music streaming, search functions, and other features without interruptions
+   1. Robustness: Robustness includes the ability to deal with invalid user input, network issues, server failures, and unexpected behavior from client applications.
 
 ### Capacity Requirements
 
-   - Assume that there are around 100 millions songs
-   - Assume that the size per file is around 5MB.
-   - Assume that the song metadata size is around 1KB.
+   1. Assume that there are around 100 millions songs
+   1. Assume that the size per file is around 5MB.
+   1. Assume that the song metadata size is around 1KB.
 
 This implies that there is a storage requirement of 500 TB to store the song data. Additionally, the storage requirement of the song metadata is around 1 GB.
 ### High Level Design:
