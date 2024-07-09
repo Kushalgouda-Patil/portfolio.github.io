@@ -154,6 +154,7 @@ This implies that there is a storage requirement of 500 TB to store the song dat
 5. https://engineering.atspotify.com/2014/02/how-to-shuffle-songs/
 6. https://www.baeldung.com/cs/efficiently-sorting-linked-lists
 7. https://developers.google.com/machine-learning/recommendation/content-based/basics
+8. https://ujjwalbhardwaj.me/post/system-design-design-spotify-music-streaming-platform/
 
 
 
