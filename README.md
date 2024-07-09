@@ -23,6 +23,40 @@ Spotify operates on a freemium business model, offering both a free ad-supported
 Over the past year, Spotify has focused heavily on improving profitability. In addition to subscription price hikes rolled out globally, Spotify has laid off 6% of its workforce and scaled back spending on podcast content and marketing.
 
 Improving profitability is crucial for Spotify to reassure investors. Since going public in 2018 at a $30 billion valuation, Spotify has yet to deliver consistent profits, leading its stock price to underperform the broader market.
+## Objectives
+
+## System Design
+### Functional Requirements
+   - As a user, I should be able to search for songs based on the song name/artist name etc.
+   - As a user, I should be able to play the selected song.
+
+### Non-Functional Requirements
+
+   - Latency: Low latency is vital for immediate music playback after a user's selection, quick search results, and responsive user interface interactions.
+   - Scalability: Scalability ensures that as the number of users increases, the system can handle the additional load without performance degradation
+   - Availability: The users should be able to access music streaming, search functions, and other features without interruptions
+   - Robustness: Robustness includes the ability to deal with invalid user input, network issues, server failures, and unexpected behavior from client applications.
+
+### Capacity Requirements
+
+   - Assume that there are around 100 millions songs
+   - Assume that the size per file is around 5MB.
+   - Assume that the song metadata size is around 1KB.
+
+This implies that there is a storage requirement of 500 TB to store the song data. Additionally, the storage requirement of the song metadata is around 1 GB.
+### High Level Design:
+![high level design](https://images.ctfassets.net/dwexedm4848a/1fbUbOQ1YGSi4LNKhypCm3/215df587d28bbf3c14ae46e97ec89f92/Untitled-2023-12-04-1715.png)
+
+### Components:
+
+   - SpotifyWebServer: It acts as a BFF that performs authorization, rate limiting and other validations.
+   - SongSearchService: It is used to return the query result for song search by user
+   - Elasticsearch: To speed up the search results on song name/artist/lyrics or other metadata, an indexing service like Elasticsearch can be used. This creates an index of all the searchable content, allowing for quick retrieval of search results.
+   - SongMetadataService: Service that has APIs for getting data from MetadataDB.
+   - MetadataDB: System of record for the Songs Metadata
+    SongStreamingService: It is used to get the song audio file for streaming
+   - ObjectStore: System of record for the audio filea
+   - CDN: Content Delivery Network that caches songs for better Latency
 
 ## Business Use Cases
 1. **Playlist Management**
@@ -54,7 +88,6 @@ Improving profitability is crucial for Spotify to reassure investors. Since goin
    - **Challenge:** To give right suggestions to autocomplete
    - **Data structure and Algorithm:** Trie data structure
    - **Description:** Optimized for storing large datasets of strings with shared prefixes. Search time is (n), where n is the length of the prefix, making them very efficient for autocomplete.
-   - Find the sample code [here]()
 7. **Content Caching**
    - **Challenge:** To cache the content for faster access
    - **Data structure and Algorithm:** LRU Cache eviction policy
