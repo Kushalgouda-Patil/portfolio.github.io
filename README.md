@@ -101,7 +101,7 @@ This implies that there is a storage requirement of 500 TB to store the song dat
    - Find the sample code [here](https://github.com/srafay/Machine_Learning_A-Z/blob/master/Part%204%20-%20Clustering/Section%2024%20-%20K-Means%20Clustering/kmeans.py)
 6. **Search Autocomplete**
 
-   ![illustration](https://i.redd.it/ee5w4bhh6d1b1.jpg)
+   ![illustration](https://res.cloudinary.com/hilnmyskv/image/upload/q_auto,f_auto/v1681989815/Algolia_com_Blog_assets/Featured_images/ux/suggested-search-and-autocomplete-what-is-it-and-how-does-it-work/ej56jkef9f0d8niqxhgs.jpg)
    - **Challenge:** To give right suggestions to autocomplete
    - **Data structure and Algorithm:** Trie data structure
    - **Description:** Optimized for storing large datasets of strings with shared prefixes. Search time is (n), where n is the length of the prefix, making them very efficient for autocomplete.
