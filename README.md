@@ -82,7 +82,7 @@ This implies that there is a storage requirement of 500 TB to store the song dat
 3. **Shuffle songs**
 
    ![Shuffle](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwMOugOvHE2kdXNvddM0XRGm6FWZDTYHAgQ&s)
-   
+
    - **Challenge:** Shuffle songs randomly in playlist
    - **Data structure and Algorithm:** Fisher–Yates shuffle
    - **Description:** The Fisher–Yates shuffle is an algorithm for shuffling a finite sequence. The algorithm takes a list of all the elements of the sequence, and continually determines the next element in the shuffled sequence by randomly drawing an element from the list until no elements remain. The algorithm produces an unbiased permutation: every permutation is equally likely.
@@ -121,6 +121,12 @@ This implies that there is a storage requirement of 500 TB to store the song dat
     - **Data structure and Algorithm:** Concurrent doubly linked list with publish/subscribe model 
     - **Description:** Concurrent doubly linked list allows multiple users to modify the data structure. Pub/sub model allows real time data synchronization.
     - Find the sample code [here]()
+11. **Music Recommendation**
+   ![illustration](https://www.haulio.io/wp-content/uploads/2020/06/Collaborative-vs-Content-based-filtering.jpg)
+   - **Challenge:** Application should recommend songs that users love
+   - **Data structure and Algorithm:** Content Based filtering and collaborative filtering
+   - **Description:** Content based filtering uses users history whereas collaborative filter uses similar users' history and interests to recommend a song to the user.
+   - Find the sample code [here](https://github.com/ugis22/music_recommender/tree/master/content%20based%20recommedation%20system)
 
 ## Efficiency analysis
 
@@ -133,6 +139,7 @@ This implies that there is a storage requirement of 500 TB to store the song dat
 | **Least Recently Used (LRU) Cache**   | O(1) for both get and put operations           | O(capacity)                                   |
 | **K-means Clustering**                | O(n * k * I * d)<br>where:<br>n = number of data points<br>k = number of clusters<br>I = number of iterations<br>d = dimensionality of data                                                 | O(n * k)                                      |
 | **Heap Data Structure**               | Insert/Delete/Extract: O(log n)                | O(n)                                          |
+| **Collaborative Filtering**           | Ranges from O(n^2) to O(n^3)                   | O(n * m)                                          |
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
 
 ## References
