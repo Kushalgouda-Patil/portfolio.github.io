@@ -72,7 +72,9 @@ This implies that there is a storage requirement of 500 TB to store the song dat
    - **Data structure and Algorithm:** Doubly linked list data structure.
    - **Description:** Doubly linked list allows insertion and deletion of songs in constant time. It provides quick access to previous and next songs making a ideal choice for playlist. The lookup time is O(n) which has minimal effect since playlist size will not be that big to count on.
    - Find the sample code [here](https://github.com/Kushalgouda-Patil/spotify.github.io/blob/main/dll.c)
+
 2. **Sorting songs**
+
    ![Sorting songs image](https://www.viwizard.com/images/resource/spotify-desktop-playlist-sort-by-title-reverse.jpg)
    - **Challenge:** Quickly sort the songs based on applied filters
    - **Data structure and Algorithm:** Merge sort
