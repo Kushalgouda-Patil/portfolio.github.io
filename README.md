@@ -67,16 +67,22 @@ This implies that there is a storage requirement of 500 TB to store the song dat
 
 ## Business Use Cases
 1. **Playlist Management**
+   ![playlist management](https://www.digitaltrends.com/wp-content/uploads/2022/07/spotify-how-to-create-playlist-awesome-playlist.jpg?fit=720%2C720&p=1)
    - **Challenge:** Efficiently handle operations on playlist.
    - **Data structure and Algorithm:** Doubly linked list data structure.
    - **Description:** Doubly linked list allows insertion and deletion of songs in constant time. It provides quick access to previous and next songs making a ideal choice for playlist. The lookup time is O(n) which has minimal effect since playlist size will not be that big to count on.
    - Find the sample code [here](https://github.com/Kushalgouda-Patil/spotify.github.io/blob/main/dll.c)
 2. **Sorting songs**
+   ![Sorting songs image](https://www.viwizard.com/images/resource/spotify-desktop-playlist-sort-by-title-reverse.jpg)
    - **Challenge:** Quickly sort the songs based on applied filters
    - **Data structure and Algorithm:** Merge sort
    - **Description:** A divide-and-conquer, stable sorting algorithm that works by recursively creating sub-lists for every element in the list. It can be implemented with constant auxillary space. Due to the nature of the algorithm requiring less random access of it is best suited for linked lists
    - Find the sample code [here](https://github.com/Kushalgouda-Patil/DSA/blob/main/sorting_techniques/merge_sort.c)
+
 3. **Shuffle songs**
+
+   ![Shuffle](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwMOugOvHE2kdXNvddM0XRGm6FWZDTYHAgQ&s)
+   
    - **Challenge:** Shuffle songs randomly in playlist
    - **Data structure and Algorithm:** Fisher–Yates shuffle
    - **Description:** The Fisher–Yates shuffle is an algorithm for shuffling a finite sequence. The algorithm takes a list of all the elements of the sequence, and continually determines the next element in the shuffled sequence by randomly drawing an element from the list until no elements remain. The algorithm produces an unbiased permutation: every permutation is equally likely.
