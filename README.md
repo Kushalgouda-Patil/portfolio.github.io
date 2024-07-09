@@ -1,4 +1,4 @@
-## Portfolio on Spotify
+## 📘 Course Information
 
 - **Course Name:** Algorithmic Problem Solving
 - **Course Code:** 23ECSE309
